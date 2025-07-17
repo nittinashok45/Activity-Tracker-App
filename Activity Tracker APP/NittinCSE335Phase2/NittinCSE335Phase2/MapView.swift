@@ -95,7 +95,7 @@ struct MapView: View {
     @State private var sector = MKCoordinateRegion()
     @State private var stater: [Positioning] = []
     let cityname: String
-    let apiKey = "tXZjBbWctb9LtgWMjrmvdET6A7AMiTZXgOWe4phKNT5m1dkBRHvxnVFWbEShfJ09i4t4sptBwx9kpiC2hspJzqO78XhfYHXF7WAZodp10mui-8j7_0RlTtVmE29dZXYx"
+    let apiKey = "API KEY"
 
     var body: some View {
         VStack {
