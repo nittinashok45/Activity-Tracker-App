@@ -41,7 +41,7 @@ struct WeatherInfo: Codable {
 }
 
 func fetchWeatherData(city: String, completion: @escaping (Weather?) -> Void) {
-    let apiKey = "0a8ca6fa022949551d2fd370f905aa97"
+    let apiKey = "API KEY"
     let encodedCity = city.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
     let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(encodedCity)&appid=\(apiKey)&units=metric")!
     
